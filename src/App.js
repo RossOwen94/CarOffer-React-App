@@ -64,7 +64,6 @@ function App() {
           let matches = false;
 
           Object.entries(data).map((entry) => {
-            console.log(entry);
             if (
               entry[1]
                 .toString()
@@ -145,7 +144,7 @@ function App() {
 
           <WmiTable>
             <header>
-              WMI Data - Honda | Total: {carData.length} | Found:{" "}
+              WMI Data - Honda | Total: {carData.length} | Found:
               {filteredData.length}
             </header>
             <table>
