@@ -1,6 +1,5 @@
 import { React, useState, useEffect } from "react";
 import "./App.css";
-import data from "./honda_wmi.json";
 import axios from "axios";
 import styled from "styled-components";
 
